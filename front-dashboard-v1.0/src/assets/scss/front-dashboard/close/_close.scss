@@ -1,0 +1,11 @@
+/*------------------------------------
+  Close
+------------------------------------*/
+
+.close {
+  opacity: $close-opacity;
+
+  &:hover {
+    color: $close-hover-color;
+  }
+}

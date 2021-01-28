@@ -1,0 +1,17 @@
+/*------------------------------------
+  Popover
+------------------------------------*/
+
+.popover {
+  background-color: $popover-bg-color;
+  box-shadow: none;
+}
+
+.popover-header {
+  @include font-size($font-size-lg);
+  font-weight: $popover-header-font-weight;
+}
+
+.popover-body {
+  color: $popover-body-color;
+}

@@ -1,0 +1,43 @@
+/*------------------------------------
+  Button Status Sizes
+------------------------------------*/
+
+.btn-xs-status {
+  top: -$btn-status-top-offset-xs;
+  right: -$btn-status-right-offset-xs;
+  font-size: $btn-status-font-size-xs;
+  width: $btn-status-width-xs;
+  height: $btn-status-height-xs;
+  border-width: $btn-xs-status-border-width;
+
+  .btn.rounded-circle & {
+    top: -$btn-status-top-offset-xs / 4;
+    right: -$btn-status-right-offset-xs / 4;
+  }
+}
+
+.btn-sm-status {
+  top: -$btn-status-top-offset-sm;
+  right: -$btn-status-right-offset-sm;
+  font-size: $btn-status-font-size-sm;
+  width: $btn-status-width-sm;
+  height: $btn-status-height-sm;
+
+  .btn.rounded-circle & {
+    top: -$btn-status-top-offset-sm / 2;
+    right: -$btn-status-right-offset-sm / 2;
+  }
+}
+
+.btn-lg-status {
+  top: -$btn-status-top-offset-lg;
+  right: -$btn-status-top-offset-lg;
+  font-size: $btn-status-font-size-lg;
+  width: $btn-status-width-lg;
+  height: $btn-status-height-lg;
+
+  .btn.rounded-circle & {
+    top: -$btn-status-top-offset-lg / 1.25;
+    right: -$btn-status-right-offset-lg / 1.25;
+  }
+}

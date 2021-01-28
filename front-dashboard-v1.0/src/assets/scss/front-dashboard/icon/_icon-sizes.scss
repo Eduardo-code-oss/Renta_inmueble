@@ -1,0 +1,23 @@
+/*------------------------------------
+  Icon Sizes
+------------------------------------*/
+
+.icon {
+  &.icon-xs {
+    font-size: $icon-font-size-xs;
+    width: $icon-width-xs;
+    height: $icon-height-xs;
+  }
+
+  &.icon-sm {
+    font-size: $icon-font-size-sm;
+    width: $icon-width-sm;
+    height: $icon-height-sm;
+  }
+
+  &.icon-lg {
+    font-size: $icon-font-size-lg;
+    width: $icon-width-lg;
+    height: $icon-height-lg;
+  }
+}

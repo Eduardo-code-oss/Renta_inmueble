@@ -1,0 +1,9 @@
+/*------------------------------------
+  Soft Button Styles
+------------------------------------*/
+
+@each $color, $value in $theme-colors {
+  .btn-soft-#{$color} {
+    @include button-soft($value, $value, $value, $value, $value);
+  }
+}
