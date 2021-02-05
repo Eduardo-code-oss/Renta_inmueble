@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Add Inmueble &amp; Dashboard Template</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.ico">
+
+  <!-- Font -->
+  <link href="@@vars.googleFont" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <!-- bundlecss:vendor [@@autopath] -->
+  <link rel="stylesheet" href="./assets/vendor/icon-set/style.css">
+
+  <!-- CSS Front Template -->
+  <!-- bundlecss:theme [@@autopath] @@vars.version -->
+  <link rel="stylesheet" href="./assets/css/theme.min.css">
+</head>
+<body>
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main" class="main">
+    <!-- Content -->
+    <div class="card-body-stretched">
+        <!-- Step -->
+
+        <!-- End Step -->
+
+        <!-- Content Step Form -->
+        <div id="addUserStepFormContent">
+          <!-- Card -->
+          <div id="addUserStepProfile" class="card card-lg active">
+            <!-- Body -->
+            <div class="card-body">
+              <!-- Form Group -->
+             <div class="row form-group">
+                <label class="col-sm-3 col-form-label input-label">Tipo</label>
+
+              <div class="col-auto">
+                <div class="align-items-center">
+                  <div class="col-sm-9">
+                  
+
+                    <select class="js-select2-custom js-datatable-filter"
+                    data-target-column-index="2"
+                    data-hs-select2-options='{
+                      "minimumResultsForSearch": "Infinity",
+                      "customClass": "custom-select custom-select-sm custom-select-borderless",
+                      "dropdownAutoWidth": true,
+                      "width": true
+                    }'>
+                        <option value="">All</option>
+                        <option value="successful">Departamento</option>
+                        <option value="overdue">Casa</option>
+                        <option value="pending">Condominio</option>
+                        </select>
+                  </div>
+                  
+                </div>
+                </div>
+              </div>
+              <!-- End Form Group -->
+
+              <!-- Form Group -->
+              <div class="row form-group">
+                <label for="firstNameLabel" class="col-sm-3 col-form-label input-label">Estado </label>
+
+                <div class="align-items-center">
+                  <div class="input-group input-group-sm-down-break">
+                    <input type="text" class="form-control" name="estado" id="estadolabel" placeholder="Hidalgo" aria-label="Hidalgo">
+                  </div>
+                </div>
+
+                <label for="callelabel" class="col-sm-3 col-form-label input-label">calle </label>
+                <div class="align-items-end">
+                    <div class="input-group input-group-sm-down-break">
+                      <input type="text" class="form-control" name="calle" id="callelabel" placeholder="calle" aria-label="calle">
+                    </div>
+                  </div>
+              </div>
+              <!-- End Form Group -->
+              
+              <!-- Form Group -->
+              <div class="row form-group">
+                <label for="emailLabel" class="col-sm-3 col-form-label input-label">Municipio</label>
+
+                <div class="align-items-center">
+                  <input type="email" class="form-control" name="municipio" id="municipiolabel" placeholder="Municipio" aria-label="Municipio">
+                </div>
+
+                <label for="numerolabel" class="col-sm-3 col-form-label input-label">Numero</label>
+                <div class="align-items-end">
+                    <div class="input-group input-group-sm-down-break">
+                      <input type="text" class="form-control" name="Numero" id="Numerolabel" placeholder="Numero" aria-label="Numero">
+                    </div>
+                  </div>
+              </div>
+              <!-- End Form Group -->
+
+              <!-- Form Group -->
+              <div class="js-add-field row form-group">
+                    <label for="phoneLabel" class="col-sm-3 col-form-label input-label">Colonia</label>
+
+                    <div class="align-items-center">
+                    <div class="input-group input-group-sm-down-break align-items-center">
+                        <input type="text" class="js-masked-input form-control" name="colonia" id="colonialabel" placeholder="Colonia" aria-label="Colonia">
+
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+
+                </div>
+            <!-- End Form Group -->
+                <!-- Form Group -->
+                <div class="row form-group">
+                    <label for="organizationLabel" class="col-sm-3 col-form-label input-label">costo de renta</label>
+    
+                    <div class="align-self-center">
+                      <input type="text" class="form-control" name="money" id="moneylabel" placeholder="Money" aria-label="Money">
+                    </div>
+
+                    <label for="organizationLabel" class="col-sm-3 col-form-label input-label">deposito</label>
+
+                    <div class="align-items-end">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="siCheckbox" name="siCheckbox">
+                                <label class="custom-control-label font-size-sm text-muted" for="termsCheckbox"> Si</label>
+                              </div>
+
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="noCheckbox" name="noCheckbox">
+                                <label class="custom-control-label font-size-sm text-muted" for="termsCheckbox"> No</label>
+                              </div>
+                            </div>
+                        
+                     </div>
+                     <div class="row form-group">
+                     <label for="organizationLabel" class="col-sm-3 col-form-label input-label">numero telefonico</label>
+
+                     <div class="align-items-center">
+                      <div class="input-group input-group-sm-down-break align-items-center">
+                          <input type="text" class="js-masked-input form-control" name="numtel" id="numerotellabel" placeholder="7712885008" aria-label="7712885008">
+    
+                      </div>
+                    </div>
+                 </div>
+    <!-- End Form Group -->
+                      
+               
+              </div>
+              <!-- End Form Group -->
+
+              
+          
+
+
+              
+            
+
+
+            
+            <!-- End Body -->
+
+            <!-- Footer -->
+            <div class="card-footer d-flex justify-content-end align-items-center">
+              <a class="btn btn-primary" href="tb-contenidos.html">guardar</a>
+            </div>
+            <!-- End Footer -->
+          </div>
+          <!-- End Card -->
+  
+      </div>
+    <div class="content container-fluid">
+      <div class="row justify-content-lg-center pt-lg-5 pt-xl-10">
+        <a class="btn btn-primary" href="index.html">Go back to Layouts</a>
+
+      </div>
+      <!-- End Row -->
+    </div>
+    <!-- End Content -->
+
+
+  </main>
+
+  <!-- JS Global Compulsory @@deleteLine:build -->
+  <script src="@@autopath/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="@@autopath/node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <!-- bundlejs:vendor [@@autopath] -->
+  <script src="@@autopath/assets/vendor/hs-unfold/dist/hs-unfold.min.js"></script>
+
+  <!-- JS Front -->
+  <!-- bundlejs:theme [@@autopath] -->
+  <script src="@@autopath/assets/js/hs.core.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of unfold
+      $('.js-hs-unfold-invoker').each(function () {
+        var unfold = new HSUnfold($(this)).init();
+      });
+    });
+  </script>
+
+  <!-- IE Support -->
+  <script>
+    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="@@autopath/assets/vendor/babel-polyfill/polyfill.min.js"><\/script>');
+  </script>
+</body>
+</html>
