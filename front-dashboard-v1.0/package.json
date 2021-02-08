@@ -17,15 +17,16 @@
     "gulp-changed": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
+    "gulp-delete-lines": "0.0.7",
     "gulp-file-include": "^2.1.1",
     "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-uglify-es": "^2.0.0",
-    "gulp-delete-lines": "0.0.7",
-    "gulp-replace": "^1.0.0"
+    "gulp-uglify-es": "^2.0.0"
   },
   "dependencies": {
     "@yaireo/tagify": "^3.17.6",
+    "ajax": "^0.0.4",
     "appear": "^1.0.1",
     "bootstrap": "^4.5.0",
     "chart.js": "^2.9.3",
